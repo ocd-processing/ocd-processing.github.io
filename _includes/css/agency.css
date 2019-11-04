@@ -56,7 +56,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
 }
@@ -320,7 +319,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        text-transform: none;
         font-family: {{ site.data.template.font.primary }};
         font-size: 60px;
         font-weight: 700;
@@ -355,7 +354,7 @@ section h3.section-subheading {
 
 .service-heading {
     margin: 15px 0;
-    text-transform: none;
+    text-transform: uppercase;
 }
 
 #portfolio .portfolio-item {
