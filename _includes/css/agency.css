@@ -217,6 +217,7 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
+    text-shadow: 2px 2px grey;
 }
 
 .navbar-default .nav li a:hover,
@@ -235,6 +236,10 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
+}
+
+.navbar-container .navbar-brand {
+    text-shadow: 2px 2px grey;
 }
 
 @media(min-width:768px) {
@@ -305,8 +310,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 500px;
     }
 
     header .intro-text .intro-lead-in {
@@ -318,7 +322,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-top: 50px;
         text-transform: none;
         font-family: {{ site.data.template.font.primary }};
         font-size: 60px;
