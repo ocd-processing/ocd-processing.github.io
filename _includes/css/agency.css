@@ -243,6 +243,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+    .navbar-container .navbar-brand {
+        text-shadow: 2px 2px grey;
+    }
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
