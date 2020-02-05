@@ -217,7 +217,8 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 700;
 }
 
 .navbar-default .nav li a:hover,
@@ -239,12 +240,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar>.container .navbar-brand {
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 2px 3px black;
 }
 
 @media(min-width:768px) {
     .navbar>.container .navbar-brand {
-        text-shadow: 2px 2px grey;
+        text-shadow: 2px 2px 3px black;
     }
 
     .navbar-default {
