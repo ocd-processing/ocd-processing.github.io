@@ -357,6 +357,10 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+#services p {
+    text-align: justify;
+}
+
 #values h4.section-heading, #special_offers h4.section-heading {
     font-weight: 400;
 }
