@@ -361,6 +361,10 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+#values .container .container, #special_offers .container .container {
+    width: fit-content;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
